@@ -102,8 +102,8 @@ function draw() {
   strokeWeight(3);
   stroke("white");
   let walls = [
-    // Ray2.with2p(new Vec2(50,50), new Vec2(100,300)),
-    // Ray2.with2p(new Vec2(100,300), new Vec2(250,200)),
+    Ray2.with2p(new Vec2(50,50), new Vec2(100,300)),
+    Ray2.with2p(new Vec2(100,300), new Vec2(250,200)),
     Ray2.with2p(new Vec2(250, 200), new Vec2(50, 50)),
   ];
   for (let wall of walls) {
